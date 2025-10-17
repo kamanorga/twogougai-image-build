@@ -20,7 +20,7 @@ const YOUNGHERO_KEY = process.env.YOUNGHERO_KEY || '';
 const SUIDAO_DOMAIN = process.env.SUIDAO_DOMAIN || '';
 const SUIDAO_AUTH = process.env.SUIDAO_AUTH || '';
 const SUIDAO_PORT = process.env.SUIDAO_PORT || 8001;
-const CFIP = process.env.CFIP || 'www.visa.com.sg';
+const CFIP = process.env.CFIP || 'cdns.doon.eu.org';
 const CFPORT = process.env.CFPORT || 443;
 const NAME = process.env.NAME || 'Vls';
 
@@ -513,3 +513,4 @@ async function startserver() {
 startserver();
 
 app.listen(PORT, () => console.log(`http server is running on port:${PORT}!`));
+
