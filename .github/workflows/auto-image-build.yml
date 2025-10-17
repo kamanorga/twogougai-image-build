@@ -1,15 +1,6 @@
 name: Build Twogougai HTML Image
 
 on:
-  push:
-    branches: [main]
-    paths:
-      - "Dockerfile"
-      - "app.html"
-      - "index.js"
-      - "package.json"
-  pull_request:
-    branches: [main]
   workflow_dispatch:
 
 jobs:
